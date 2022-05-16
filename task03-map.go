@@ -4,7 +4,7 @@ import (
 	"sort"
 )
 
-func SortMapValues(input map[int]string) (result []string) {
+func sortMapValues(input map[int]string) (result []string) {
 	var arr []string
 	keys := make([]int, 0, len(input))
 

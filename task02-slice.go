@@ -1,6 +1,6 @@
 package homework
 
-func Reverse(input []int64) (result []int64) {
+func reverse(input []int64) (result []int64) {
 	// slice := make([]int64, len(input))
 	// copy(slice, input)
 	var slice []int64
